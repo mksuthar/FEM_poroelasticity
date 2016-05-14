@@ -1,0 +1,23 @@
+ant:
+<ant>
+  <mkdir dir="\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_redistribution" />
+  <mkdir dir="\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_testing" />
+  <mkdir dir="\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_redistribution_files_only" />
+</ant>
+mcc -C -o poroFEM -W WinMain:poroFEM -T link:exe -d '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_testing' -v '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase1.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\assembly_process.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\compute_stress_dispacment.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\extract_mesh2_elem.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\FEM_poroelasticity.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\FEM_poroelasticity_BC.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase1.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase2.fig' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase2.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase3.fig' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase3.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase3a.fig' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase3a.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase4.fig' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase4.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase4a.fig' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase4a.m' -a '\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\plot_patches.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "\\ecfile1.uwaterloo.ca\mksuthar\My
+Documents\MATLAB\Computer-Project" to Compiler path instance.] 
+Parsing file "\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\Phase1.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "\\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\R2015a\toolbox\compiler\Resources\default_icon.ico to \\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_testing\poroFEM.exe.
+Attempting to embed the CTF archive into the application \\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_testing\poroFEM.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at \\ecfile1.uwaterloo.ca\mksuthar\My Documents\MATLAB\Computer-Project\poroFEM\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 3 minutes and 35 seconds.

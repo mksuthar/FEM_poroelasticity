@@ -1,0 +1,18 @@
+This zip file was created by Megh Suthar, Michael Yang, Junaid Farooq, Allan Liu, Andus Mok, and Stella Jhang. 
+It is for the submission of the EARTH 437 Computer Software Project. 
+
+Within this zip, please find the following documents:
+
+1. poroFEM.zip
+
+2. Poroelastic Theory Report
+	-Summary
+	-Introduction
+	-Method
+	-FEM Equations
+	-Acceptable Ranges 
+	-Conclusion
+	-References
+	-Glossary
+3. poroFEM Tutorial
+4. GMSH Tutorial
